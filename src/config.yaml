@@ -1,6 +1,7 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  # name: AstroWind
+  name: Thạc sĩ luật Thanh Bình
+  site: 'https://thanhbinh.icu'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +10,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: Thạc sĩ luật Thanh Bình
     template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F680 Việc gì khó có Thạc sĩ Bình lo."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Thạc sĩ luật Thanh Bình
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -38,7 +39,8 @@ apps:
 
     post:
       isEnabled: true
-      permalink: '/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      # permalink: '/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      permalink: '/%slug%'
       robots:
         index: true
 
